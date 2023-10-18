@@ -3,7 +3,7 @@ import TodoCard from './TodoCard'
 import "./Home.css"
 import { v4 as uuid } from 'uuid';
 import { useNavigate } from 'react-router-dom';
-
+import Footer from "./Footer"
 
 function Home() {
     const navigate = useNavigate()
@@ -56,7 +56,9 @@ function Home() {
                         </div>
                     ))
                 }
+                <Footer/>
             </div>
+            
         </>
     )
 }
