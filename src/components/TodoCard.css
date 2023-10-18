@@ -1,0 +1,110 @@
+/* TodoCard.css */
+
+/* Container for the entire card */
+.card-container {
+  background-color: #adfa80;
+  border: 1px solid #a8ffa8;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 400px; /* Adjust the maximum width as needed */
+}
+
+/* Checkbox styles */
+.card-checkbox {
+  margin-right: 10px;
+}
+
+/* Title styles */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Horizontal line styles */
+.hor-line {
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin: 10px 0;
+  display: block;
+}
+
+/* Description styles */
+.card-description {
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Delete button styles */
+.card-delete-button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  word-break: break-all;
+}
+
+/* Cross-through effect when checked */
+.cross-through {
+  text-decoration: line-through;
+}
+
+/* Customize the checkbox */
+.card-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 3px;
+  position: relative;
+}
+
+.card-checkbox:checked {
+  background-color: #08dd1a;
+  border: 2px solid #6aff14;
+}
+
+/* Hide the default checkbox */
+.card-checkbox::-webkit-outer-spin-button,
+.card-checkbox::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.card-checkbox:checked::before {
+  content: '\2713'; /* Checkmark character */
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/* Style when the checkbox is disabled */
+.card-checkbox:disabled {
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+}
+
+/* Style for the label text next to the checkbox */
+.card-checkbox + label {
+  margin-left: 5px;
+}

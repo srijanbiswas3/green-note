@@ -1,0 +1,74 @@
+/* NoteApp.css */
+
+/* Background Gradient */
+body {
+  background: linear-gradient(to right, #56f2b6, #2fed78);
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styles */
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Search Input Styles */
+.search-text {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.button-add {
+  background-color: #0373cf;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+.button-clear {
+  background-color: #fa6a7d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.button-add:hover {
+  background-color: #0609cf;
+}
+.button-clear:hover {
+  background-color: #ff1139;
+}
+
+/* Todo Card Styles */
+.todo-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Add your own custom styles as needed */

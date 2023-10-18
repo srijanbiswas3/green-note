@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.header-container {
+  display: flex;
+  align-items: center; /* Align vertically to the center */
+  background-color: whitesmoke;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: -10px;
+  padding: 10px;
+}
+
+.imglogo {
+  height: auto;
+  max-height: 100px;
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+h1 {
+  color: rgb(0, 190, 41);
+  font-family: 'Courier New', Courier, monospace;
+}
