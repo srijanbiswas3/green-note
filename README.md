@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Green Note - React Note App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Green Note Logo](https://github.com/srijanbiswas3/green-note/blob/main/asset/greennote.jpg)
 
-## Available Scripts
+Green Note is a simple and lightweight note-taking web application built using React.js. It provides essential features such as creating, searching, deleting, and saving notes to local storage. Additionally, you can mark notes as completed and even add image snippets to your notes.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Local Storage](#local-storage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Create and Delete Notes**: You can easily create new notes and delete them when you no longer need them.
+ ![Greenote](https://github.com/srijanbiswas3/green-note/blob/main/asset/greennote3.PNG)
 
-### `npm test`
+2. **Search Notes**: Find your notes quickly with the built-in search feature. Just start typing, and Green Note will filter your notes in real-time.
+  ![Greenote](https://github.com/srijanbiswas3/green-note/blob/main/asset/greennote1.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Mark Notes as Completed**: Keep track of completed tasks by marking notes as done. It's a great way to stay organized and focused.
+  ![Greenote](https://github.com/srijanbiswas3/green-note/blob/main/asset/greennote4.PNG)
 
-### `npm run build`
+4. **Local Storage**: Green Note utilizes local storage to save your notes, so you won't lose your data even if you close your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with Green Note, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/your-username/green-note.git
+   cd green-note
+   ```
+2. Install the required dependencies using npm or yarn:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+This will start the development server and open the app in your default web browser. You can access the app at http://localhost:3000/.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the app is running, you can perform the following actions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Create a Note**: Click the "New Note" button to create a new note. You can give it a title and add your content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Delete a Note**: Hover over a note and click the trash can icon to delete it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Search Notes**: Use the search bar at the top to search for specific notes.
 
-## Learn More
+- **Mark Notes as Completed**: Click the checkbox icon on a note to mark it as completed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Add Image Snippets**: To add an image snippet, paste the image URL in the note content, and it will be displayed.
+## Local Storage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Green Note saves your notes in the browser's local storage. This means that your notes are preserved even if you close the browser or refresh the page. However, please note that this data is stored locally on your device, and it won't sync across different devices or browsers.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We welcome contributions from the open-source community to make Green Note even better. If you'd like to contribute, please follow these steps:
 
-### Analyzing the Bundle Size
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name for your feature or bug fix.
+3. Make your changes and ensure they follow the project's coding standards.
+4. Test your changes thoroughly.
+5. Create a pull request (PR) with a clear description of your changes.
+6. Your PR will be reviewed, and once approved, it will be merged into the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If the license file is not found, you can add a button like this:
 
-### Advanced Configuration
+[![License Not Found](https://img.shields.io/badge/License-Not%20Found-red.svg)](LICENSE_NOT_FOUND)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Thank you for using Green Note! We hope it helps you stay organized and productive.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[GitHub Repository](https://github.com/srijanbiswas3/green-note)
