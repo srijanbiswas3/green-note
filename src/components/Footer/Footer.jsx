@@ -28,6 +28,14 @@ export function Footer() {
           >
             GitHub
           </a>
+          <br/>
+          <a
+            href="https://www.linkedin.com/in/srijanbiswas/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
         </div>
       </div>
       <div className="copyright">
